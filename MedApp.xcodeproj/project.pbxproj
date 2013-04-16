@@ -18,6 +18,14 @@
 		CEC2F3BE171C61510058D014 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC2F3BD171C61510058D014 /* Default-568h@2x.png */; };
 		CEC2F3C1171C61510058D014 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC2F3BF171C61510058D014 /* MainStoryboard.storyboard */; };
 		CEC2F3C4171C61510058D014 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2F3C3171C61510058D014 /* ViewController.m */; };
+		CEC2F3D8171C62A60058D014 /* MainMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2F3D7171C62A60058D014 /* MainMenuVC.m */; };
+		CEC2F3DB171C62BE0058D014 /* SummaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2F3DA171C62BE0058D014 /* SummaryVC.m */; };
+		CEC2F3DE171C62DB0058D014 /* ChooseNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2F3DD171C62DB0058D014 /* ChooseNameVC.m */; };
+		CEC2F3E1171C62EE0058D014 /* ChooseTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2F3E0171C62EE0058D014 /* ChooseTypeVC.m */; };
+		CEC2F3E4171C630A0058D014 /* ChooseDateAndTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2F3E3171C630A0058D014 /* ChooseDateAndTimeVC.m */; };
+		CEC2F3E7171C63320058D014 /* ListOfMedicinesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2F3E6171C63320058D014 /* ListOfMedicinesVC.m */; };
+		CEC2F3EA171C63530058D014 /* EditMedicineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2F3E9171C63530058D014 /* EditMedicineVC.m */; };
+		CEC2F3ED171C63740058D014 /* ScheduleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2F3EC171C63740058D014 /* ScheduleVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,22 @@
 		CEC2F3C0171C61510058D014 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CEC2F3C2171C61510058D014 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CEC2F3C3171C61510058D014 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEC2F3D6171C62A60058D014 /* MainMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuVC.h; sourceTree = "<group>"; };
+		CEC2F3D7171C62A60058D014 /* MainMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuVC.m; sourceTree = "<group>"; };
+		CEC2F3D9171C62BE0058D014 /* SummaryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryVC.h; sourceTree = "<group>"; };
+		CEC2F3DA171C62BE0058D014 /* SummaryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryVC.m; sourceTree = "<group>"; };
+		CEC2F3DC171C62DB0058D014 /* ChooseNameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseNameVC.h; sourceTree = "<group>"; };
+		CEC2F3DD171C62DB0058D014 /* ChooseNameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseNameVC.m; sourceTree = "<group>"; };
+		CEC2F3DF171C62EE0058D014 /* ChooseTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseTypeVC.h; sourceTree = "<group>"; };
+		CEC2F3E0171C62EE0058D014 /* ChooseTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseTypeVC.m; sourceTree = "<group>"; };
+		CEC2F3E2171C630A0058D014 /* ChooseDateAndTimeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseDateAndTimeVC.h; sourceTree = "<group>"; };
+		CEC2F3E3171C630A0058D014 /* ChooseDateAndTimeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseDateAndTimeVC.m; sourceTree = "<group>"; };
+		CEC2F3E5171C63320058D014 /* ListOfMedicinesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfMedicinesVC.h; sourceTree = "<group>"; };
+		CEC2F3E6171C63320058D014 /* ListOfMedicinesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfMedicinesVC.m; sourceTree = "<group>"; };
+		CEC2F3E8171C63530058D014 /* EditMedicineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMedicineVC.h; sourceTree = "<group>"; };
+		CEC2F3E9171C63530058D014 /* EditMedicineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditMedicineVC.m; sourceTree = "<group>"; };
+		CEC2F3EB171C63740058D014 /* ScheduleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleVC.h; sourceTree = "<group>"; };
+		CEC2F3EC171C63740058D014 /* ScheduleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +107,12 @@
 		CEC2F3AD171C61510058D014 /* MedApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEC2F3CD171C61A90058D014 /* Main Menu */,
+				CEC2F3D2171C620A0058D014 /* Summary */,
+				CEC2F3D1171C61F30058D014 /* Configure Medicines */,
+				CEC2F3D0171C61D20058D014 /* List of Medicines */,
+				CEC2F3CF171C61C70058D014 /* Edit Medicine */,
+				CEC2F3CE171C61BC0058D014 /* Schedule */,
 				CEC2F3B6171C61510058D014 /* AppDelegate.h */,
 				CEC2F3B7171C61510058D014 /* AppDelegate.m */,
 				CEC2F3BF171C61510058D014 /* MainStoryboard.storyboard */,
@@ -105,6 +135,64 @@
 				CEC2F3BD171C61510058D014 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC2F3CD171C61A90058D014 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CEC2F3D6171C62A60058D014 /* MainMenuVC.h */,
+				CEC2F3D7171C62A60058D014 /* MainMenuVC.m */,
+			);
+			name = "Main Menu";
+			sourceTree = "<group>";
+		};
+		CEC2F3CE171C61BC0058D014 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				CEC2F3EB171C63740058D014 /* ScheduleVC.h */,
+				CEC2F3EC171C63740058D014 /* ScheduleVC.m */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		CEC2F3CF171C61C70058D014 /* Edit Medicine */ = {
+			isa = PBXGroup;
+			children = (
+				CEC2F3E8171C63530058D014 /* EditMedicineVC.h */,
+				CEC2F3E9171C63530058D014 /* EditMedicineVC.m */,
+			);
+			name = "Edit Medicine";
+			sourceTree = "<group>";
+		};
+		CEC2F3D0171C61D20058D014 /* List of Medicines */ = {
+			isa = PBXGroup;
+			children = (
+				CEC2F3E5171C63320058D014 /* ListOfMedicinesVC.h */,
+				CEC2F3E6171C63320058D014 /* ListOfMedicinesVC.m */,
+			);
+			name = "List of Medicines";
+			sourceTree = "<group>";
+		};
+		CEC2F3D1171C61F30058D014 /* Configure Medicines */ = {
+			isa = PBXGroup;
+			children = (
+				CEC2F3DC171C62DB0058D014 /* ChooseNameVC.h */,
+				CEC2F3DD171C62DB0058D014 /* ChooseNameVC.m */,
+				CEC2F3DF171C62EE0058D014 /* ChooseTypeVC.h */,
+				CEC2F3E0171C62EE0058D014 /* ChooseTypeVC.m */,
+				CEC2F3E2171C630A0058D014 /* ChooseDateAndTimeVC.h */,
+				CEC2F3E3171C630A0058D014 /* ChooseDateAndTimeVC.m */,
+			);
+			name = "Configure Medicines";
+			sourceTree = "<group>";
+		};
+		CEC2F3D2171C620A0058D014 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				CEC2F3D9171C62BE0058D014 /* SummaryVC.h */,
+				CEC2F3DA171C62BE0058D014 /* SummaryVC.m */,
+			);
+			name = Summary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +264,14 @@
 				CEC2F3B4171C61510058D014 /* main.m in Sources */,
 				CEC2F3B8171C61510058D014 /* AppDelegate.m in Sources */,
 				CEC2F3C4171C61510058D014 /* ViewController.m in Sources */,
+				CEC2F3D8171C62A60058D014 /* MainMenuVC.m in Sources */,
+				CEC2F3DB171C62BE0058D014 /* SummaryVC.m in Sources */,
+				CEC2F3DE171C62DB0058D014 /* ChooseNameVC.m in Sources */,
+				CEC2F3E1171C62EE0058D014 /* ChooseTypeVC.m in Sources */,
+				CEC2F3E4171C630A0058D014 /* ChooseDateAndTimeVC.m in Sources */,
+				CEC2F3E7171C63320058D014 /* ListOfMedicinesVC.m in Sources */,
+				CEC2F3EA171C63530058D014 /* EditMedicineVC.m in Sources */,
+				CEC2F3ED171C63740058D014 /* ScheduleVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
